@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Reddit Sans Condensed', sans-serif;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    margin: 0 auto;
+    width: 300px;
+}
+
+form {    
+    background-color: rgb(83, 26, 241);
+    padding: 25px;
+    border-radius: 20px;
+    
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input[type=text] {
+    outline: none;
+    padding: 10px;
+    /* width: 90px; */
+    /* height: 70px; */
+    border-radius: 20px;
+    border: none;
+    /* text-align: center; */
+}
+
+input[type=password] {
+    outline: none;
+    padding: 10px;
+    /* width: 90px; */
+    /* height: 70px; */
+    border-radius: 20px;
+    border: none;
+    /* text-align: center; */
+}
+
+input[type=submit] {
+    outline: none;
+    width: 90px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    background-color: rgb(123, 241, 26);
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#msg {
+    display: flex;
+    margin-bottom: 50px;
+    font-size: 34px;
+    font-weight: 800;
+    /* background-color: rgb(209, 241, 26); */
+    width: inherit;
+    height: 125px;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
